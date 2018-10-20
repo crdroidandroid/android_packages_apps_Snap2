@@ -37,7 +37,7 @@ LOCAL_JACK_ENABLED := disabled
 
 #Do not override for targets using vanilla AOSP
 ifneq ($(TARGET_USES_AOSP),true)
-LOCAL_OVERRIDES_PACKAGES := Camera2
+LOCAL_OVERRIDES_PACKAGES := Camera2 Snap
 endif
 
 LOCAL_PROGUARD_FLAG_FILES := proguard.flags
