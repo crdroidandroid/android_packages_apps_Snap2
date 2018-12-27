@@ -74,4 +74,6 @@
     <!-- move top ui below notch . -->
     <integer name="notch_size">0</integer>
 
+    <!-- Enable support for bokeh mode -->
+    <bool name="support_bokeh_mode">false</bool>
 </resources>
